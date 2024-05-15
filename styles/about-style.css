@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* home page styles */
+
+/* section 1 */
+
+.yellow{color:#FEE715;}
+.bgyellow{background-color:#FEE715;}
+.lightblack{background-color: #1a1515;}
+.navStyle:hover{border-bottom:4px solid white;color: #FEE715;}
+.navStyle{color: white;text-decoration: none;}
+.about-img{height: 400px;}
+
+/* #count1{
+    font: 800 40px system-ui;
+  } */
+
+  /* section 8 */
+
+  .about-s8-img{ width: 200px;height: 200px;}
+
+  /* section 9 */
+
+.about-footer-bg1{background-image: url(../public/images/about-footer-bg1.jpg);background-size: 100% 100%;background-repeat: no-repeat;}
+.about-footer-bg2{background-image: url(../public/images/about-footer-bg2.jpg);background-size: 100% 100%;background-repeat: no-repeat; height:350px;}
+.about-footer-bg3{background-image: url(../public/images/about-footer-bg3.jpg);background-size: 100% 100%;background-repeat: no-repeat; height:350px;}
+.about-footer-signupbox{height:450px;width:300px;position: absolute;top:-50px;border-radius: 40px;border:2px solid white}
+.about-footer-signupbox-bg{ height:350px;position: relative;}

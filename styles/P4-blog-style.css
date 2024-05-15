@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* home page styles */
+
+/* section 1 */
+
+.yellow{color:#FEE715;}
+.bgyellow{background-color:#FEE715;}
+.lightblack{background-color: #1a1515;}
+.navStyle:hover{border-bottom:4px solid white;color: #FEE715;}
+.navStyle{color: white;text-decoration: none;}
+.blog-s1-carousel{height:500px;}
+/* section 2 */
+
+.blog-img{width: 290px;height: 250px;}
+.blog-s2-carousel{width: 100%;height:350px}
+.home-s3-contact-btn{width:200px;height:50px;border-radius: 40px;}
+
+.blog-bottom-img{background-image: url(../public/images/blog-bottom-img.jpeg);background-size: 100% 100%;background-repeat: no-repeat;height: 300px;}
+  /* section 9 */
+
+.blog-footer-bg1{background-image: url(../public/images/blog-footer-bg1.jpg);background-size: 100% 100%;background-repeat: no-repeat;}
+.blog-footer-bg2{background-image: url(../public/images/blog-footer-bg2.jpg);background-size: 100% 100%;background-repeat: no-repeat; height:350px;}
+.blog-footer-bg3{background-image: url(../public/images/blog-footer-bg3.jpg);background-size: 100% 100%;background-repeat: no-repeat; height:350px;}
+.blog-footer-signupbox{height:450px;width:300px;position: absolute;top:-50px;border-radius: 40px;border:2px solid white}
+.blog-footer-signupbox-bg{ height:350px;position: relative;}
