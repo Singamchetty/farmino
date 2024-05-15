@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* home page styles */
+
+/* section 1 */
+
+.yellow{color:#FEE715;}
+.bgyellow{background-color:#FEE715;}
+.lightblack{background-color: #1a1515;}
+.navStyle:hover{border-bottom:4px solid white;color: #FEE715;}
+.navStyle{color: white;text-decoration: none;}
+
+/* section 2 */
+
+.fs-12{font-size: 10px;}
+.home-s2-card{width:290px}
+.home-s2-card:hover{color: #fff;transform: scale(1.1,1.1);transition: 2s;background-image: url(../public/images/s1-fruit5.png);background-size: 100% 100%; background-repeat: no-repeat;}
+.home-s2-card{background-image: url(../public/images/s1-food.png);transition:2s;}
+.text-justify{text-align: justify;}
+
+/* section 3 */
+
+  .home-s3-carousel{height:500px;}
+  .home-s3-carousel-1{background-image: url(../public/images/s1-carousel-1.jpg);background-size: 100% 500px;background-repeat: no-repeat;width:100%}
+  .home-s3-carousel-2{background-image: url(../public/images/s1-carousel-2.jpg);background-size: 100% 500px;background-repeat: no-repeat;}
+  .home-s3-carousel-3{background-image: url(../public/images/s1-carousel-3.jpg);background-size: 100% 500px;background-repeat: no-repeat;}
+  .home-s3-carousel-4{background-image: url(../public/images/s1-carousel-4.jpg);background-size: 100% 500px;background-repeat: no-repeat;}
+  .home-s3-carousel-5{background-image: url(../public/images/s1-carousel-5.jpg);background-size: 100% 500px;background-repeat: no-repeat;}
+  .home-s3-carousel-6{background-image: url(../public/images/s1-carousel-6.jpg);background-size: 100% 500px;background-repeat: no-repeat;}
+  .fs-60{font-size: 60px;}
+  .home-s3-contact-btn{width:200px;height:50px;border-radius: 40px;}
+
+  /* section 4 */
+
+  /* progress circles */
+  .circle-wrap{width:150px;height:150px;border-radius:50%}
+  .circle-wrap .circle .mask{clip:rect(0px,150px,150px,75px)}
+  .circle-wrap .circle .mask .fill-100{clip:rect(0px,75px,150px,0px);background-color:#9e00b1}
+  @keyframes fill{0%{transform:rotate(0deg)}100%{transform:rotate(126deg)}}
+  .circle-wrap .inside-circle{width:130px;height:130px;border-radius:50%;background:#fff;line-height:130px;text-align:center;margin-top:10px;margin-left:10px;position:absolute;z-index:100;font-weight:700;font-size:2em}
+  /* 100% progress code */
+  .circle-wrap .circle .mask,.circle-wrap .circle .fill-100{width:150px;height:150px;position:absolute;border-radius:50%}
+  @keyframes fill-100{0%{transform:rotate(0deg)}100%{transform:rotate(180deg)}}
+  .circle-wrap .circle .mask.full-100,.circle-wrap .circle .fill-100{animation:fill-100 ease-in-out 3s;transform:rotate(180deg)}
+  /* 80% progress code */
+  .circle-wrap .circle .mask,.circle-wrap .circle .fill-80{width:150px;height:150px;position:absolute;border-radius:50%}
+  @keyframes fill-80{0%{transform:rotate(0deg)}100%{transform:rotate(140deg)}}
+  .circle-wrap .circle .mask.full-80,.circle-wrap .circle .fill-80{animation:fill-80 ease-in-out 3s;transform:rotate(140deg)}
+  /* 93% progress code */
+  .circle-wrap .circle .mask,.circle-wrap .circle .fill-93{width:150px;height:150px;position:absolute;border-radius:50%}
+  @keyframes fill-93{0%{transform:rotate(0deg)}100%{transform:rotate(160deg)}}
+  .circle-wrap .circle .mask.full-93,.circle-wrap .circle .fill-93{animation:fill-93 ease-in-out 3s;transform:rotate(160deg)}
+
+  /* section 5 */
+
+  .home-s5-card{width:260px;height:200px}
+  .home-s5-img{height:200px}
+
+  /* section 6 */
+
+  .home-s6-img{width:150px;height:150px}
+
+  /* section 7 */
+
+  .home-s7-card{width: 300px;}
+  .home-s7-img{width:300px;height:200px}
+
+  /* section 8 */
+
+  .home-s8-img{width:150px;height:150px}
+
+  /* section 9 */
+
+.home-footer-bg1{background-image: url(../public/images/home-footer-bg1.jpg);background-size: 100% 100%;background-repeat: no-repeat;}
+.home-footer-bg2{background-image: url(../public/images/home-footer-bg2.jpg);background-size: 100% 100%;background-repeat: no-repeat; height:350px;}
+.home-footer-bg3{background-image: url(../public/images/home-footer-bg3.jpg);background-size: 100% 100%;background-repeat: no-repeat; height:350px;}
+.home-footer-signupbox{height:450px;width:300px;position: absolute;top:-50px;border-radius: 40px;border:2px solid white}
+.home-footer-signupbox-bg{ height:350px;position: relative;}

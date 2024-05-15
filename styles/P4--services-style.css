@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* services page styles */
+
+/* section 1 */
+
+.yellow{color:#FEE715;}
+.bgyellow{background-color:#FEE715;}
+.lightblack{background-color: #1a1515;}
+.services-img{width:100%;height:300px}
+.navStyle:hover{border-bottom:4px solid white;color: #FEE715;}
+.navStyle{color: white;text-decoration: none;}
+
+/* section 2 */
+
+.fs-12{font-size: 10px;}
+.services-s2-card{width:250px;height:350px;border-radius: 50px;}
+.services-s2-card:hover{color: #fff;transform: scale(1.1,1.1);transition: 2s;background-size: 100% 100%; background-repeat: no-repeat;background-color: white;color: black;}
+.services-s2-card{background-color:#FEE715 ;transition:2s;}
+.text-justify{text-align: justify;}
+
+  /* section 3 */
+
+  .services-footer-bg1{background-image: url(../public/images/services-footer-bg1.jpg);background-size: 100% 100%;background-repeat: no-repeat;}
+  .services-footer-bg2{background-image: url(../public/images/services-footer-bg2.jpg);background-size: 100% 100%;background-repeat: no-repeat; height:350px;}
+  .services-footer-bg3{background-image: url(../public/images/services-footer-bg3.jpg);background-size: 100% 100%;background-repeat: no-repeat; height:350px;}
+  .services-footer-signupbox{height:450px;width:300px;position: absolute;top:-50px;border-radius: 40px;border:2px solid white;}
+  .services-footer-signupbox-bg{ height:350px;position: relative;}
